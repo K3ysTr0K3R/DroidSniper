@@ -1,6 +1,6 @@
 # DroidSniper
 
-This tool is designed to detect Android devices vulnerable to unauthorized access via the Android Debug Bridge (ADB) due to misconfiguration. By scanning for ADB instances that lack proper authentication, security teams can identify and mitigate potential vulnerabilities, safeguarding devices from unauthorized access.
+This tool, DroidSniper, is designed to detect misconfigured Android Debug Bridge (ADB) protocols on Android devices. These devices are vulnerable to unauthorized access via ADB due to misconfiguration. By scanning for ADB instances lacking proper authentication, security teams can identify and mitigate potential vulnerabilities, safeguarding devices against unauthorized access.
 
 ## Features
 
@@ -13,15 +13,15 @@ Below are the steps to connect to your target when it doesnt have an Auth method
 
 ### Initial Steps
 
-1. **Install adb: sudo apt install adb
+1. **Install adb: sudo apt install adb**
 
 1. **Enable ADB listener TCP/IP**:
-    - Switch ADB to TCP/IP mode: `adb tcpip 5555
+    - Switch ADB to TCP/IP mode: `adb tcpip 5555`
 
 2. **Connect To Target**:
     - Obtain your IP address or target.
     - Connect to your device or target: `adb connect <device-ip-address>:5555`
-    - Confirm with `adb devices`.
+    - Confirm with `adb devices`
     - Get shell: `adb shell`
 
 ### Security Tips
