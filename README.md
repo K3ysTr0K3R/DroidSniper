@@ -28,3 +28,8 @@ Below are the steps to connect to your target when it doesnt have an Auth method
 
 - **Secure Network**: Use a secure, trusted network for TCP/IP connections.
 - **Disable ADB Over Network After Use**: Execute `adb usb` to revert to USB-only mode, closing the TCP/IP connection and enhancing security.
+
+
+## Disclaimer
+
+The use of the DroidSniper tool should be limited to testing, research, and educational purposes only. I am not responsible for any misuse or damage caused by this tool. Ensure you have explicit permission to test devices and networks with DroidSniper. Unauthorized access to devices and networks is illegal and unethical.
